@@ -21,7 +21,6 @@ public class t102
         {
          
             System.out.println("Reversed: "+array1[i-1]);
-            System.out.println("TEST");
          }
          
 
