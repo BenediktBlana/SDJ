@@ -6,7 +6,6 @@ public class Exercise_6_04
    {
   
       Scanner keyboard=new Scanner(System.in);
-      int big1=0,big2=0;
       int[] numbers=new int[5];
       int max = 0, secondmax = 0;
       

@@ -7,7 +7,7 @@ public class Exercise_7_06
    {
       Scanner keyboard = new Scanner(System.in);
       int[] x = new int[10];
-      int index = 0;
+     
       int min=x[0];
 
       for (int i = 0; i < x.length; i++)
@@ -33,7 +33,7 @@ public class Exercise_7_06
             
            
             
-      
+      keyboard.close();
       System.out.println("smallest is "+min);
    }
 }

@@ -1,0 +1,46 @@
+public class PriorityNote
+{
+private String note;
+private boolean highPriority;
+public PriorityNote(String note)
+{
+this.note = note;
+highPriority = false;
+}
+public String getNote()
+{
+return note;
+}
+public void setNote(String note)
+{
+this.note = note;
+}
+public boolean isHighPriorityNote()
+{
+return highPriority;
+}
+public void setHighPriority()
+{
+highPriority = true;
+}
+public void setLowPriority()
+{
+highPriority = false;
+}
+public PriorityNote copy()
+{
+PriorityNote copy = new PriorityNote(note);
+if (highPriority)
+{
+copy.setHighPriority();
+}
+return copy;
+}
+public String toString()
+{
+String s = note;
+if (highPriority)
+s += " (high priority)";
+return s;
+}
+}

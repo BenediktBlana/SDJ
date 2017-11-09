@@ -86,18 +86,18 @@ public class MyDate
             || month == 10 || month == 12)
       {
          int a = 31;
-         return 1;
+         return 31;
       }
       if (month == 2 || isLeapYear())
       {
          int b = 29;
-         return b;
+         return 29;
       }
 
       if (month == 4 || month == 6 || month == 9 || month == 11)
       {
          int d = 30;
-         return d;
+         return 30;
       }
       else
       {
@@ -121,5 +121,26 @@ public class MyDate
       all += month + "/" + year;
 
       return all;
+   }
+   public void stepForwardOneDay()
+   {
+      
+      if(this.day==numberOfDaysInMonth()+1)
+      {
+         this.day=1;
+         this.month=this.month+1;
+         if(month>12)
+         {
+            month=1;
+            year++;
+         }
+      }
+   }
+   public void stepForward()
+   {
+      for(int i = 0;i<day;i++)
+      {
+         stepForwardOneDay();
+      }
    }
 }

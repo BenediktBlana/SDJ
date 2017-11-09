@@ -31,7 +31,7 @@ public class Execerise_7_04
       {
          System.out.println(list[i]);
       }
-
+      keyboard.close();
    }
 
 }

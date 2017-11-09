@@ -46,5 +46,7 @@ public class Exercise_8_05
       System.out
             .println(" Positive numbers :" + pos + " Negative numbers :" + neg
                   + " Biggest number :"+max+" Lowest number :"+min);
+      keyboard.close();
    }
+  
 }

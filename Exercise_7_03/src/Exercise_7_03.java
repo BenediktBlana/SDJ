@@ -28,7 +28,7 @@ public class Exercise_7_03
            System.out.println(name[i]+" ,");
          }
          
-            
+          keyboard.close();
          
         
           

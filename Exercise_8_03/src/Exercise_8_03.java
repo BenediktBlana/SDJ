@@ -26,7 +26,7 @@ public class Exercise_8_03
       {
          System.out.println(asd[i]);
       }
-      
+      keyboard.close();
    }
 }
 
