@@ -1,6 +1,1 @@
-﻿# SDJ
-# SDJ
-# SDJ
-blabla
-asdasdasda
-serssss
+bunch of exercises when I was learning OOP
